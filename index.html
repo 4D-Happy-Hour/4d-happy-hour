@@ -1,57 +1,50 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>4D Happy Hour</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="">
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-  </head>
-  <body>
-    <div class="container-fluid">
-      <div class="p-5 mb-4 bg-light rounded-3">
-        <div class="container-fluid py-5">
-          <img src="Assets/logo.svg" class="img-fluid" alt="4D Happy Hour logo">
-        </div>
-      </div>
-
-      <div class="container py-4">
-        <div class="row align-items-md-stretch">
-          <div class="col-md-6">
-            <div class="h-100 p-5 rounded-3">
-              <h2 style="padding: 5px;">4D Happy Hour - an informal weekly gathering of 4D developers</h2>
-              <h3>  Where anyone interested in 4D is welcome</h3>
-              <p>
-                We talk about 4D, the business of being a 4D developer, and frequently,
-                the weather in Canada.
-              </p><p>
-                We love to screen share - cool stuff we have worked out, problems we are stuck on and new features of the platform.</p>
-
-                <p>Stop by and say hello.</p>
-                <a href="https://www.4d.com" target="blank"><h4>What is 4D? </h4></a>
-
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>4D Happy Hour</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <style>
+            .background-image {
+                background-image: url("Assets/background.png");
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center center;
+                height: 100vh;
+            }
+            .banner {
+                font-size: 6em; /* Sets the font size to 6em */
+                color: white; /* Adjust text color as needed */
+            }
+            .subtext:hover  a {
+                color: #FF0000; /* Adjust text color as needed */
+            }
+            .subtext a {
+                color: #d6def9; /* Adjust text color as needed */
+            }
+            .subtext {
+                font-size: 2.4em; /* 40% of 6em */
+                color: white; /* Adjust text color as needed */
+            }
+        </style>
+    </head>
+    <body>
+        <div class="background-image container">
+            <div class="row row-cols-4">
+                <div class="col-8 banner">4D Happy Hour</div>
             </div>
-          </div>
-
-          <div class="col-md-6">
-            <div class="h-100 p-5 bg-light border rounded-3">
-              <h2>Fridays at 3:30 PM PDT</h2>
-              <h3>Zoom: https://us02web.zoom.us/j/83731433887</h3>
-              <h2>Pass code : 4d4all</h2>
+            <div class="row row-cols-4">
+                <div class="subtext"><a href='https://us02web.zoom.us/j/83731433887?pwd=T1B2UlErek1sRHRrNnYrV1lWYVF0QT09'>Weekly Zoom Meeting</a></div>
             </div>
-          </div>
-        </div>
+                <div class="subtext">Friday, 3:30 PM  PDT</div>
+                <div class="subtext">An informal weekly gathering of <a href='https://4d.com'>4D developers</a><br/> where everyone is welcome</div>
+            </div>
 
-      </div>
-    </div>
-    <script src="" async defer></script>
-    <footer class="pt-3 mt-4 text-muted border-top">
-      <p>&copyKirk Brooks; 2023</p>
-      <p>4D Happy Hour is not affiliated with 4D Inc. or 4D SAS.</p>
-      <p>This site does not collect any personal information.</p>
-    </footer>
-  </body>
+            <footer class="pt-3 mt-4 text-muted border-top">
+                <p>&copyKirk Brooks; 2023<br/>
+                4D Happy Hour is not affiliated with 4D Inc. or 4D SAS.<br/>
+                This site does not collect any personal information.</p>
+            </footer>
+    </body>
 </html>
