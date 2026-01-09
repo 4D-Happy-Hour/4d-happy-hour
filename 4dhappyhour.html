@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4D Happy Hour</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --warm-bg: linear-gradient(135deg, #fef3e2 0%, #fad4c0 50%, #f0b8a8 100%);
+            --text-dark: #2d2a26;
+            --text-muted: #5c5650;
+            --accent: #c75d3a;
+            --accent-hover: #a84a2d;
+            --card-bg: rgba(255, 255, 255, 0.85);
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            color: var(--text-dark);
+            line-height: 1.6;
+        }
+
+        /* Hero Section */
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem;
+            background: var(--warm-bg);
+            /* Background image - replace with your monotype print */
+            background-image: url('your-monotype-print.jpg');
+            background-size: cover;
+            background-position: center;
+            background-blend-mode: soft-light;
+            position: relative;
+        }
+
+        .hero-content {
+            background: var(--card-bg);
+            backdrop-filter: blur(10px);
+            border-radius: 16px;
+            padding: 3rem 3.5rem;
+            max-width: 540px;
+            text-align: center;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
+        }
+
+        .hero h1 {
+            font-family: 'Playfair Display', Georgia, serif;
+            font-size: 2.75rem;
+            font-weight: 600;
+            margin-bottom: 0.75rem;
+            color: var(--text-dark);
+        }
+
+        .tagline {
+            font-size: 1.1rem;
+            color: var(--text-muted);
+            margin-bottom: 2rem;
+            font-weight: 400;
+        }
+
+        .meeting-info {
+            margin-bottom: 2rem;
+        }
+
+        .meeting-time {
+            font-size: 1.25rem;
+            font-weight: 500;
+            margin-bottom: 0.25rem;
+        }
+
+        .meeting-id {
+            font-size: 0.9rem;
+            color: var(--text-muted);
+        }
+
+        .zoom-button {
+            display: inline-block;
+            background: var(--accent);
+            color: white;
+            text-decoration: none;
+            padding: 1rem 2.5rem;
+            border-radius: 8px;
+            font-weight: 500;
+            font-size: 1.1rem;
+            transition: background 0.2s ease, transform 0.2s ease;
+        }
+
+        .zoom-button:hover {
+            background: var(--accent-hover);
+            transform: translateY(-2px);
+        }
+
+        .scroll-hint {
+            position: absolute;
+            bottom: 2rem;
+            left: 50%;
+            transform: translateX(-50%);
+            color: var(--text-muted);
+            font-size: 0.85rem;
+            opacity: 0.7;
+            text-decoration: none;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .scroll-hint svg {
+            animation: bounce 2s infinite;
+        }
+
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+            40% { transform: translateY(6px); }
+            60% { transform: translateY(3px); }
+        }
+
+        /* About Section */
+        .about {
+            background: #fdfbf9;
+            padding: 5rem 2rem;
+        }
+
+        .about-content {
+            max-width: 680px;
+            margin: 0 auto;
+        }
+
+        .about h2 {
+            font-family: 'Playfair Display', Georgia, serif;
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+            color: var(--text-dark);
+        }
+
+        .about p {
+            margin-bottom: 1.25rem;
+            color: var(--text-muted);
+        }
+
+        .about p:last-of-type {
+            margin-bottom: 0;
+        }
+
+        .details-list {
+            background: white;
+            border-radius: 12px;
+            padding: 1.5rem 2rem;
+            margin: 2rem 0;
+            border-left: 4px solid var(--accent);
+        }
+
+        .details-list h3 {
+            font-size: 1rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: var(--text-dark);
+        }
+
+        .details-list ul {
+            list-style: none;
+            color: var(--text-muted);
+        }
+
+        .details-list li {
+            padding: 0.4rem 0;
+            padding-left: 1.5rem;
+            position: relative;
+        }
+
+        .details-list li::before {
+            content: "→";
+            position: absolute;
+            left: 0;
+            color: var(--accent);
+        }
+
+        .contact-note {
+            font-style: italic;
+            font-size: 0.95rem;
+        }
+
+        /* Footer */
+        footer {
+            background: var(--text-dark);
+            color: rgba(255, 255, 255, 0.6);
+            text-align: center;
+            padding: 2rem;
+            font-size: 0.85rem;
+        }
+
+        footer a {
+            color: rgba(255, 255, 255, 0.8);
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            color: white;
+        }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            .hero-content {
+                padding: 2rem 1.5rem;
+            }
+
+            .hero h1 {
+                font-size: 2rem;
+            }
+
+            .tagline {
+                font-size: 1rem;
+            }
+
+            .about {
+                padding: 3rem 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <section class="hero">
+        <div class="hero-content">
+            <h1>4D Happy Hour</h1>
+            <p class="tagline">Where 4D developers share screens, swap code, and solve problems together</p>
+
+            <div class="meeting-info">
+                <p class="meeting-time">Fridays at 2:30 PM Pacific</p>
+                <p class="meeting-id">Meeting ID: 837 3143 3887</p>
+            </div>
+
+            <a href="https://us02web.zoom.us/j/83731433887?pwd=mNvrDpaA9qquD5xijFd3pZhOP3jrFX.1" class="zoom-button">
+                Join the Meeting
+            </a>
+        </div>
+
+        <a href="#about" class="scroll-hint">
+            Learn more
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M7 13l5 5 5-5M7 6l5 5 5-5"/>
+            </svg>
+        </a>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-content">
+            <h2>About 4D Happy Hour</h2>
+
+            <p>4D Happy Hour started in 2020 as a way for 4D developers to connect during the pandemic. What began as casual Friday gatherings has grown into a weekly tradition — a place to talk about the nerdy details of 4D, discuss the business side of being a 4D developer, network, and share code and demos.</p>
+
+            <p>These meetings have become known for live demos and screen sharing. Seeing how other developers work is always appreciated, and frequently someone with decades of experience will say "wow — I never thought of doing that."</p>
+
+            <div class="details-list">
+                <h3>What to expect</h3>
+                <ul>
+                    <li>Casual format — come and go as you need</li>
+                    <li>Typically runs about 2 hours, sometimes longer</li>
+                    <li>We do not record meetings — this encourages open screen sharing</li>
+                    <li>Bring your 4D problems and get expert suggestions</li>
+                    <li>Everyone is welcome, from beginners to veterans</li>
+                </ul>
+            </div>
+
+            <p class="contact-note">Want to demo something or present on a specific topic? Contact Kirk at <a href="mailto:kirk@everything4d.com">kirk@everything4d.com</a> to reserve a slot.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Kirk Brooks</p>
+        <p style="margin-top: 0.5rem;">
+            4D Happy Hour is not affiliated with <a href="https://4d.com">4D SAS</a> or 4D Inc.<br>
+            This site does not collect any personal information.
+        </p>
+    </footer>
+</body>
+</html>

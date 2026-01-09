@@ -161,3 +161,15 @@ Type `log` + `Tab` → expands to `console.log('');` with cursor inside quotes.
 
 ---
 
+_**User (2026-01-09 18:58Z)**_
+
+/clear 
+
+---
+
+_**Agent**_
+
+
+
+---
+
