@@ -20,6 +20,6 @@ Files:
 
 - `index.html`
 - `styles.css`
-- `assets/4dhh-logo.svg`
-- `assets/4dhh-logo-bw.svg`
-- `assets/4dhh-ad-square.png`
+- `Assets/4dhh-logo.svg`
+- `Assets/4dhh-logo-bw.svg`
+- `Assets/4dhh-ad-square.png`
