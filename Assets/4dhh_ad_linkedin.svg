@@ -1,0 +1,45 @@
+<svg width="1200" height="627" viewBox="0 0 680 355" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="liBlue" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0" stop-color="#2974D9"/><stop offset="1" stop-color="#001E4F"/>
+</linearGradient>
+<linearGradient id="liBeer" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#D3A583"/><stop offset="0.45" stop-color="#D49F7D"/><stop offset="1" stop-color="#CC7D5F"/>
+</linearGradient>
+</defs>
+<rect x="0" y="0" width="680" height="355" fill="#F7F9FC"/>
+<rect x="0" y="0" width="12" height="355" fill="#2974D9"/>
+<rect x="668" y="0" width="12" height="355" fill="#001E4F"/>
+<g transform="translate(40,92) scale(0.26)">
+<path fill="none" stroke="#001E4F" stroke-width="26" stroke-linecap="round" stroke-linejoin="round" d="M365 105 A300 300 0 1 0 365 695"/>
+<text x="120" y="342" font-family="Arial, Helvetica, sans-serif" font-weight="800" letter-spacing="-10" fill="url(#liBlue)" font-size="190">4D</text>
+<text x="120" y="552" font-family="Arial, Helvetica, sans-serif" font-weight="800" letter-spacing="-10" fill="#001E4F" font-size="190">HH</text>
+<path fill="#001E4F" d="M570 58c20 0 38 18 38 40v92c0 15-10 27-24 31v23h21c17 0 31 14 31 31v15h-32v-12h-69v12h-32v-15c0-17 14-31 31-31h20v-24c-14-5-24-17-24-31V98c0-22 18-40 40-40z"/>
+<rect x="515" y="292" width="110" height="44" rx="16" fill="#fff" stroke="#001E4F" stroke-width="18"/>
+<rect x="526" y="354" width="88" height="44" rx="14" fill="#fff" stroke="#001E4F" stroke-width="18"/>
+<path fill="none" stroke="#001E4F" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" d="M570 398v42"/>
+<path fill="none" stroke="#001E4F" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" d="M542 440h56l-16 80h-24z"/>
+<path fill="none" stroke="#001E4F" stroke-width="26" stroke-linecap="round" stroke-linejoin="round" d="M600 305h52c44 0 80 36 80 80v80"/>
+<path fill="none" stroke="#001E4F" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" d="M652 337c27 0 48 22 48 48v76"/>
+<path d="M525 458h205l-30 250c-3 28-27 49-55 49h-35c-28 0-52-21-55-49z" fill="#fff" stroke="#001E4F" stroke-width="20" stroke-linejoin="round"/>
+<path d="M552 526h148l-20 164c-2 18-17 31-35 31h-35c-18 0-33-13-35-31z" fill="url(#liBeer)"/>
+<path fill="#fff" stroke="#001E4F" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" d="M522 463c5-36 44-48 72-27 17-28 60-23 72 7 30-8 61 16 58 49 24 7 36 33 24 55-13 24-47 25-61 3-21 19-55 13-68-12-30 17-75 7-91-21-32 5-55-24-41-54 8-17 21-25 35-25z"/>
+<text x="565" y="624" font-family="Arial, Helvetica, sans-serif" font-weight="800" fill="#fff" font-size="82">&lt;/&gt;</text>
+<circle cx="590" cy="667" r="7" fill="#fff"/>
+<circle cx="645" cy="686" r="9" fill="#fff"/>
+</g>
+<line x1="268" y1="60" x2="268" y2="295" stroke="#001E4F" stroke-width="1" opacity="0.25"/>
+<text x="300" y="118" font-family="Arial, Helvetica, sans-serif" font-weight="800" fill="#001E4F" font-size="46" letter-spacing="-1">4D Happy Hour</text>
+<text x="302" y="152" font-family="Arial, Helvetica, sans-serif" font-weight="800" fill="#2974D9" font-size="24" letter-spacing="5">CODE ON TAP</text>
+<text x="302" y="192" font-family="Arial, Helvetica, sans-serif" font-weight="400" font-style="italic" fill="#CC7D5F" font-size="17">&#8220;I didn&#8217;t know you could do that.&#8221;</text>
+<g transform="translate(302,212)">
+<rect x="0" y="0" width="150" height="52" rx="10" fill="#001E4F"/>
+<text x="75" y="22" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="800" fill="#fff" font-size="19" letter-spacing="2">FRIDAYS</text>
+<text x="75" y="42" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="500" fill="#D3A583" font-size="14">2:30&#8211;4:30 pm PT</text>
+</g>
+<g transform="translate(466,212)">
+<rect x="0" y="0" width="172" height="52" rx="26" fill="#2974D9"/>
+<text x="86" y="31" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="800" fill="#fff" font-size="18">Join the Zoom</text>
+</g>
+<text x="302" y="292" font-family="Arial, Helvetica, sans-serif" font-weight="700" fill="#001E4F" font-size="18" letter-spacing="1">4dhappyhour.com</text>
+</svg>
