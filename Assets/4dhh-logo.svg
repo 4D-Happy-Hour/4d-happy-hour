@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">4D Happy Hour Logo Mark - Color</title>
+  <desc id="desc">Circular 4D HH mark with beer tap and code glass.</desc>
+  <defs>
+    <linearGradient id="blueGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2974D9"/>
+      <stop offset="1" stop-color="#001E4F"/>
+    </linearGradient>
+    <linearGradient id="beerGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#D3A583"/>
+      <stop offset="0.45" stop-color="#D49F7D"/>
+      <stop offset="1" stop-color="#CC7D5F"/>
+    </linearGradient>
+    <style>
+      .navy{fill:#001E4F}.blue{fill:url(#blueGrad)}.stroke{fill:none;stroke:#001E4F;stroke-width:26;stroke-linecap:round;stroke-linejoin:round}.strokeThin{fill:none;stroke:#001E4F;stroke-width:18;stroke-linecap:round;stroke-linejoin:round}.foam{fill:#fff;stroke:#001E4F;stroke-width:18;stroke-linecap:round;stroke-linejoin:round}.beer{fill:url(#beerGrad)}.white{fill:#fff}.letter{font-family:Arial, Helvetica, sans-serif;font-weight:800;letter-spacing:-10px}.code{font-family:Arial, Helvetica, sans-serif;font-weight:800;fill:#fff}
+    </style>
+  </defs>
+
+  <!-- open circular badge -->
+  <path class="stroke" d="M365 105 A300 300 0 1 0 365 695"/>
+
+  <!-- initials -->
+  <text x="120" y="342" class="letter blue" font-size="190">4D</text>
+  <text x="120" y="552" class="letter navy" font-size="190">HH</text>
+
+  <!-- beer tap -->
+  <path class="navy" d="M570 58c20 0 38 18 38 40v92c0 15-10 27-24 31v23h21c17 0 31 14 31 31v15h-32v-12h-69v12h-32v-15c0-17 14-31 31-31h20v-24c-14-5-24-17-24-31V98c0-22 18-40 40-40z"/>
+  <path class="white" d="M552 87c8-13 24-19 38-14-23 11-31 32-31 61v55h-16v-91c0-4 3-8 9-11z" opacity=".9"/>
+  <rect x="515" y="292" width="110" height="44" rx="16" class="white" stroke="#001E4F" stroke-width="18"/>
+  <rect x="526" y="354" width="88" height="44" rx="14" class="white" stroke="#001E4F" stroke-width="18"/>
+  <path class="strokeThin" d="M570 398v42"/>
+  <path class="strokeThin" d="M542 440h56l-16 80h-24z"/>
+
+  <!-- tap pipe -->
+  <path class="stroke" d="M600 305h52c44 0 80 36 80 80v80"/>
+  <path class="strokeThin" d="M652 337c27 0 48 22 48 48v76"/>
+
+  <!-- glass -->
+  <path d="M525 458h205l-30 250c-3 28-27 49-55 49h-35c-28 0-52-21-55-49z" class="white" stroke="#001E4F" stroke-width="20" stroke-linejoin="round"/>
+  <path d="M552 526h148l-20 164c-2 18-17 31-35 31h-35c-18 0-33-13-35-31z" class="beer"/>
+  <path d="M552 526h148" stroke="#D3A583" stroke-width="6"/>
+
+  <!-- foam -->
+  <path class="foam" d="M522 463c5-36 44-48 72-27 17-28 60-23 72 7 30-8 61 16 58 49 24 7 36 33 24 55-13 24-47 25-61 3-21 19-55 13-68-12-30 17-75 7-91-21-32 5-55-24-41-54 8-17 21-25 35-25z"/>
+
+  <!-- code and bubbles -->
+  <text x="565" y="624" class="code" font-size="82">&lt;/&gt;</text>
+  <circle cx="590" cy="667" r="7" fill="#fff"/>
+  <circle cx="645" cy="686" r="9" fill="#fff"/>
+  <circle cx="675" cy="640" r="7" fill="#fff"/>
+  <circle cx="612" cy="720" r="8" fill="#fff"/>
+  <path d="M575 548c-14 40-15 94 2 136" fill="none" stroke="#E4B99A" stroke-width="10" stroke-linecap="round" opacity=".65"/>
+</svg>
